@@ -1,0 +1,240 @@
+Notebook[{Cell[
+TextData[{"\n","Autor",StyleBox[RowBox[{":"," "}]],"Karolina"," ","Tatarczyk"}],
+"Subsubtitle",ExpressionUUID -> "1d44dde8-6143-4cf0-a2e1-5b073a5c62a2",CellChangeTimes -> {{3636271384.1404095`,3636271398.76243`},{3636271488.7035565`,3636271494.704565`},3636277080.4371963`}],Cell[
+CellGroupData[
+{Cell[
+"\<Metody numeryczne (Matematyka)\>","Title",CellChangeTimes -> {{3.636271156559089*^9,3.6362711687211065`*^9},{3.636276890592929*^9,3.6362768993839407`*^9},3.73047566316016*^9,{3.779962227383627*^9,3.7799622332063828`*^9},{3.7949862545684104`*^9,3.794986256474287*^9}},
+ExpressionUUID -> "2009cf3c-fec6-49c1-97a8-cb0e274a6ea4"],Cell[
+"\<Projekt 3\>","Subtitle",
+CellChangeTimes -> {{3.636271174172114*^9,3.636271181993125*^9},{3.6362824157556205`*^9,3.6362824159856205`*^9},{3.6367336304902782`*^9,3.636733630730279*^9}},
+ExpressionUUID -> "145f92ed-a3a3-421e-83ca-815e0d1fbd2c"],Cell[
+"\<Metoda eliminacji Gaussa\>",
+"Subsubtitle",CellChangeTimes -> {{3.635079149197418*^9,3.6350791606634383`*^9},{3.6350814898119907`*^9,3.635081490451592*^9},{3.636276902903946*^9,3.6362769107249565`*^9},{3.636282456740678*^9,3.636282460550683*^9},{3.6367336360912867`*^9,3.6367336409522934`*^9}},
+ExpressionUUID -> "42bfcf67-93b4-496e-91d7-0608e256ba57"],Cell[
+TextData[{"Napisa\[CAcute] procedur\:0119 realizuj\:0105c\:0105 algorytm eliminacji Gaussa (",Cell[
+BoxData[
+FormBox[RowBox[{RowBox[{"argumenty",":","  ","a"}],","," ","b"}],TraditionalForm]],
+ExpressionUUID -> "29f36f78-2fa0-47cb-be4f-6db64b58f2a0"],"). Dzia\[LSlash]anie procedury przetestowa\[CAcute] na przyk\[LSlash]adzie z wyk\[LSlash]adu.\n\n "}],
+"Text",CellChangeTimes -> {{3.623083258656246*^9,3.6230833215087566`*^9},{3.6242899405154867`*^9,3.6242899726359434`*^9},{3.6350791883846874`*^9,3.635079279520047*^9},{3.63507951459686*^9,3.635079526328081*^9},{3.6350816459058647`*^9,3.6350816459058647`*^9},{3.6354263026879025`*^9,3.635426303171503*^9},{3.6362750050641937`*^9,3.6362750570512667`*^9},{3.636275453743825*^9,3.6362754731168523`*^9},{3.6362771414452815`*^9,3.6362771430862837`*^9},{3.6362785372618113`*^9,3.6362785611948447`*^9},{3.636278640265956*^9,3.6362786688599963`*^9},{3.6362787579111214`*^9,3.636278758361122*^9},{3.636282672657982*^9,3.6362826815889945`*^9},{3.6367316097464333`*^9,3.6367316388814745`*^9},{3.636732998950389*^9,3.636733017293415*^9},3.796969248693261*^9},
+ExpressionUUID -> "5239d809-4c9b-4b04-b861-c8fc29581371"],Cell[
+TextData[{"Zadanie 1.\nW pewnym uk\[LSlash]adzie elektrycznym rozp\[LSlash]yw pr\:0105d\[OAcute]w mo\:017ce by\[CAcute] opisany uk\[LSlash]adem r\[OAcute]wna\:0144 liniowych postaci:\n",Cell[
+BoxData[
+FormBox[RowBox[{RowBox[{RowBox[{"(",GridBox[{{"1","1","0","0","0"},{"1","0",RowBox[
+{"-","1"}],"1","0"},{"0","1","0","1",RowBox[{"-","1"}]},{"0","0","1","0","1"},{"1","2","3","0",RowBox[
+{"-","6"}]}}],")"}],RowBox[{"(",GridBox[{{SubscriptBox["i","1"]},{SubscriptBox["i",
+"2"]},{SubscriptBox["i","3"]},{SubscriptBox["i","4"]},{SubscriptBox["i","5"]}}],")"}]}]," ","=",RowBox[
+{"(",GridBox[{{FractionBox["1","5"]},{"0"},{"0"},{FractionBox["1","5"]},{"0"}}],")"}]}],
+TraditionalForm]],ExpressionUUID -> "3b524b8f-a373-4867-83d2-87511fa435c5"],".\nKorzystaj\:0105c z eliminacji Gaussa wyznaczy\[CAcute] warto\:015bci pr\:0105d\[OAcute]w.\n"}],
+"Text",CellChangeTimes -> {{3.796965695921604*^9,3.7969657044018617`*^9},{3.796968412649406*^9,3.796968722098803*^9},3.7969688670579734`*^9,3.7969689083214498`*^9,3.7969692953952374`*^9,{3.7970758273488708`*^9,3.7970758366485443`*^9}},
+ExpressionUUID -> "53aeba95-b6e7-4d5a-ab5b-b8ead4378d62"],Cell[
+TextData[{"Zadanie"," ","2",".","\n","a",StyleBox[
+RowBox[{")"," "}]],"Niech"," ",Cell[
+BoxData[Cell[
+FormBox[RowBox[{"d","=",SuperscriptBox[
+"10",RowBox[{"-","20"}]]}],TraditionalForm],ExpressionUUID -> "7d7af04e-fc95-434e-8226-224f19ce2c5e"]],
+ExpressionUUID -> "c8a4513a-7153-44d8-a645-2f1e9303b682"],StyleBox[RowBox[{"."," "}]],"Rozwi\:0105za\[CAcute]"," ","uk\[LSlash]ad"," ","r\[OAcute]wna\:0144",":","\n"," ",Cell[
+BoxData[
+Cell[
+FormBox[RowBox[{RowBox[{SubscriptBox["a","1"]," ","x"}],"=",SubscriptBox["b",
+"1"]}],TraditionalForm],ExpressionUUID -> "de7ea2ef-673f-4380-9bf4-507a4431542f"]],
+ExpressionUUID -> "85239fe9-bcc6-459f-97eb-8c9c4500348f"],StyleBox[RowBox[{","," "}]],"\n"," ","gdzie",":","\n"," ",Cell[
+BoxData[
+Cell[
+FormBox[RowBox[{RowBox[{SubscriptBox["a","1"],"=",RowBox[{"(",GridBox[{{ItemBox[
+"d"],ItemBox["1.1"]},{ItemBox["1"],ItemBox["1"]}}],")"}]}],","," ",RowBox[{SubscriptBox[
+"b","1"],"=",RowBox[{"(",GridBox[{{ItemBox["1"]},{ItemBox["2"]}}],")"}]}]}],TraditionalForm],
+ExpressionUUID -> "c00049b0-1d2e-475b-bb78-429b82f67f54"]],ExpressionUUID -> "a53d12c6-215c-48e2-ab01-3a1203f7cb91"],".","\n"," ","Sprawdzi\[CAcute]"," ","poprawno\:015b\[CAcute]"," ","wyniku",".","\n"," ","\n"," ","b",StyleBox[
+RowBox[{")"," "}]],"Nast\:0119pnie"," ","zastosowa\[CAcute]"," ","wyb\[OAcute]r"," ","elementu"," ","maksymalnego"," ","w"," ","kolumnie",StyleBox[
+RowBox[{","," "}]],"czyli"," ","rozwi\:0105za\[CAcute]"," ","uk\[LSlash]ad"," ","r\[OAcute]wna\:0144",":","\n",StyleBox[
+RowBox[{" "," "}]],Cell[
+BoxData[Cell[
+FormBox[RowBox[{RowBox[{SubscriptBox["a","2"]," ","x"}],"=",SubscriptBox[
+"b","2"]}],TraditionalForm],ExpressionUUID -> "79619f66-d337-4ed3-9562-c3814b69c875"]],
+ExpressionUUID -> "d7827161-be67-4b3b-90f5-ce6f9f8a8f4b"],StyleBox[RowBox[{","," "}]],"\n"," ","gdzie",":","\n"," ",Cell[
+BoxData[
+Cell[
+FormBox[RowBox[{RowBox[{SubscriptBox["a","2"],"=",RowBox[{"(",GridBox[{{ItemBox[
+"1"],ItemBox["1"]},{ItemBox["d"],ItemBox["1.1"]}}],")"}]}],","," ",RowBox[{SubscriptBox[
+"b","2"],"=",RowBox[{"(",GridBox[{{ItemBox["2"]},{ItemBox["1"]}}],")"}]}]}],TraditionalForm],
+ExpressionUUID -> "82e790b8-e78c-48b8-872f-a2a501bcf1ef"]],ExpressionUUID -> "05a4979c-e896-400d-86c9-33e28977c495"],".","\n"," ","Sprawdzi\[CAcute]"," ","poprawno\:015b\[CAcute]"," ","wyniku",".","\n"," ","\n"," ","c",StyleBox[
+RowBox[{")"," "}]],"Rozwi\:0105za\[CAcute]"," ","tak\:017ce"," ","uk\[LSlash]ad"," ","r\[OAcute]wna\:0144",":","\n"," ",Cell[
+BoxData[
+Cell[
+FormBox[RowBox[{RowBox[{SubscriptBox["a","3"]," ","x"}],"=",SubscriptBox["b",
+"3"]}],TraditionalForm],ExpressionUUID -> "f5da38c7-f623-46f4-992d-c6c2c8ef3a26"]],
+ExpressionUUID -> "d2a3e74b-7ece-4a83-85b5-6bfe7145bf33"],StyleBox[RowBox[{","," "}]],"\n"," ","gdzie",":","\n"," ",Cell[
+BoxData[
+Cell[
+FormBox[RowBox[{RowBox[{SubscriptBox["a","3"],"=",RowBox[{"(",GridBox[{{ItemBox[
+"d"],ItemBox[FractionBox["11","10"]]},{ItemBox["1"],ItemBox["1"]}}],")"}]}],","," ",RowBox[
+{SubscriptBox["b","3"],"=",RowBox[{"(",GridBox[{{ItemBox["1"]},{ItemBox["2"]}}],")"}]}]}],
+TraditionalForm],ExpressionUUID -> "ab84af1d-e5e2-4309-9dc7-86147d0a5d52"]],ExpressionUUID -> "826d31e1-acef-4b7f-8b88-ca133b5ee174"],".","\n"," ","Sprawdzi\[CAcute]"," ","poprawno\:015b\[CAcute]"," ","wyniku",".","\n"," ","\n"}],
+"Text",ExpressionUUID -> "4d418807-2fb2-447b-b839-d404680d2349",CellChangeTimes -> {{3636275590.0720167`,3636275681.3941455`},{3636276260.0989933`,3636276262.6489964`},{3636278569.735857`,3636278598.129897`},{3636731991.39397`,3636732118.7691493`},{3636732167.4052176`,3636732357.4654875`},{3636732395.3005404`,3636732397.9205437`},{3636732993.5393815`,3636732994.560383`},{3636733050.7774625`,3636733051.957464`},{3779962258.4616933`,3779962264.7642627`},{3796968860.9395056`,3796968864.1580696`}}],Cell[
+CellGroupData[
+{Cell[
+"\<Rozwi\:0105zanie \>","Section",CellChangeTimes -> {{3.6350774065339575`*^9,3.6350774084371605`*^9},{3.635080524979435*^9,3.6350805393782597`*^9},3.636271137316062*^9},
+ExpressionUUID -> "5517ac2c-3e0c-42f7-908d-6d32df774224"],Cell[
+CellGroupData[{Cell[
+
+"\<Program \>","Subsection",CellChangeTimes -> {{3.6362749196420736`*^9,3.6362749212620754`*^9},{3.636282491034726*^9,3.636282495925733*^9},3.636733656333315*^9},
+ExpressionUUID -> "c424e180-2bff-49d4-87e3-3397b2db1c75"],Cell[
+BoxData[{RowBox[{"Clear","[","Gauss","]"}],"\n",RowBox[
+{RowBox[{RowBox[{"Gauss","[",RowBox[{"a_",",","b_"}],"]"}],":=",RowBox[{"Module","[",RowBox[
+{RowBox[{"{",RowBox[{RowBox[{"A","=","a"}],",","l",",",RowBox[{"B","=","b"}],",",RowBox[
+{"n","=",RowBox[{"Length","[","b","]"}]}],",","v",",","i",",","j",",","k"}],"}"}],",","\n",RowBox[
+{RowBox[{"v","=",RowBox[{"Table","[",RowBox[{"0",",",RowBox[{"{",RowBox[{"i",",","1",",","n"}],"}"}]}],"]"}]}],";","\n",RowBox[
+{"For","[",RowBox[{RowBox[{"k","=","1"}],",",RowBox[{"k","\[LessEqual]",RowBox[{"n","-","1"}]}],",",RowBox[
+{"k","++"}],",","\n",RowBox[{RowBox[{"For","[",RowBox[{RowBox[{"i","=",RowBox[{"k","+","1"}]}],",",RowBox[
+{"i","\[LessEqual]","n"}],",",RowBox[{"i","++"}],",","\n",RowBox[{RowBox[{"l","="," ",RowBox[
+{RowBox[{"A","[",RowBox[{"[",RowBox[{"i",",","k"}],"]"}],"]"}],"/",RowBox[{"A","[",RowBox[
+{"[",RowBox[{"k",",","k"}],"]"}],"]"}]}]}],";","\n",RowBox[{RowBox[{"B","[",RowBox[
+{"[","i","]"}],"]"}],"=",RowBox[{RowBox[{"B","[",RowBox[{"[","i","]"}],"]"}],"-",RowBox[
+{RowBox[{"B","[",RowBox[{"[","k","]"}],"]"}],"*","l"}]}]}],";","\n",RowBox[{"For","[",RowBox[
+{RowBox[{"j","=",RowBox[{"k","+","1"}]}],",",RowBox[{"j","\[LessEqual]","n"}],",",RowBox[
+{"j","++"}],",","\n",RowBox[{RowBox[{RowBox[{"A","[",RowBox[{"[",RowBox[{"i",",","j"}],"]"}],"]"}],"=",RowBox[
+{RowBox[{"A","[",RowBox[{"[",RowBox[{"i",",","j"}],"]"}],"]"}],"-"," ",RowBox[{RowBox[
+{"A","[",RowBox[{"[",RowBox[{"k",",","j"}],"]"}],"]"}],"*","l"}]}]}],";"}]}],"\n","]"}],";"}]}],"\n","]"}],";"}]}],"\n","]"}],";","\n",RowBox[
+{"For","[",RowBox[{RowBox[{"i","=","n"}],",",RowBox[{"i","\[GreaterEqual]","1"}],",",RowBox[
+{"i","--"}],",","\n",RowBox[{RowBox[{RowBox[{"v","[",RowBox[{"[","i","]"}],"]"}],"=",RowBox[
+{RowBox[{"(",RowBox[{RowBox[{"B","[",RowBox[{"[","i","]"}],"]"}],"-",RowBox[{"Sum","[",RowBox[
+{RowBox[{RowBox[{"A","[",RowBox[{"[",RowBox[{"i",",","j"}],"]"}],"]"}],"*",RowBox[
+{"v","[",RowBox[{"[","j","]"}],"]"}]}],",",RowBox[{"{",RowBox[{"j",",",RowBox[{"i","+","1"}],",","n"}],"}"}]}],"]"}]}],")"}],"/",RowBox[
+{"A","[",RowBox[{"[",RowBox[{"i",",","i"}],"]"}],"]"}]}]}],";"}]}],"\n","]"}],";","\n",RowBox[
+{"Return","[","v","]"}],";"}]}],"\n","]"}]}],"\n"}]}],"Input",ExpressionUUID -> "2c8fb9ef-ce89-4e65-8114-3c265ac22782",
+CellLabel -> "In[47]:= "]},Open],ExpressionUUID -> "24031013-3502-478a-b46e-ba90bc57c404"],Cell[
+CellGroupData[
+{Cell[
+"\<Przyk\[LSlash]ad testowy\>","Subsection",CellChangeTimes -> {{3.6362762164839315`*^9,3.636276218493934*^9},3.636277304567511*^9,{3.6362825005857396`*^9,3.63628250095574*^9},3.636733659194319*^9},
+ExpressionUUID -> "2d47517d-18d5-4ead-93a0-ab19e65acd40"],Cell[
+CellGroupData[{Cell[
+BoxData[
+{RowBox[{RowBox[{"a",":=",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","1",",",RowBox[
+{"-","2"}],",","1"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","2",",","3",",",RowBox[
+{"-","4"}]}],"}"}],",",RowBox[{"{",RowBox[{"2",",","1",",",RowBox[{"-","1"}],",",RowBox[
+{"-","1"}]}],"}"}],",",RowBox[{"{",RowBox[{"1",",",RowBox[{"-","1"}],",","1",",","2"}],"}"}]}],"}"}]}],";"}],"\n",RowBox[
+{RowBox[{"b",":=",RowBox[{"{",RowBox[{"1",",","2",",","1",",","3"}],"}"}]}],";"}],"\n",RowBox[
+{"MatrixForm","[","a","]"}],"\n",RowBox[{"x","=",RowBox[{"Gauss","[",RowBox[{"a",",","b"}],"]"}]}],"\n",RowBox[
+{RowBox[{RowBox[{"a",".","x"}],"==","b"}],"\n"}]}],"Input",ExpressionUUID -> "3436325c-590f-4b12-96a4-250c0bc1ebc6",
+CellLabel -> "In[77]:= "],Cell[
+BoxData[TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"1","1",RowBox[
+{"-","2"}],"1"},{"1","2","3",RowBox[{"-","4"}]},{"2","1",RowBox[{"-","1"}],RowBox[
+{"-","1"}]},{"1",RowBox[{"-","1"}],"1","2"}},RowSpacings -> 1,ColumnSpacings -> 1,
+RowAlignments -> Baseline,ColumnAlignments -> Center],"\[NoBreak]",")"}],Function[
+BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",ExpressionUUID -> "55cb18b9-059c-419a-992b-ad238b4f56b4",
+CellLabel -> "Out[79]//MatrixForm= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"1",",","1",",","1",",","1"}],"}"}],
+StandardForm],"Output",ExpressionUUID -> "d3e9cef7-2a58-45d7-a054-12d153d2f0d7",CellLabel -> "Out[80]= "],Cell[
+BoxData[
+"True",StandardForm],"Output",ExpressionUUID -> "dd5e7eca-8844-4586-b08d-359c754d142b",
+CellLabel -> "Out[81]= "]},Open],ExpressionUUID -> "41b9468b-4b5c-47b5-a976-fe5957bee0ed"]},
+Open],ExpressionUUID -> "043a9c15-8dd2-497e-a3c2-29f4c93ebe3b"],Cell[
+CellGroupData[
+{Cell[
+"\<Zadanie 1.\>","Subsection",CellChangeTimes -> {{3.636276223153941*^9,3.6362762450569715`*^9},{3.796968875688909*^9,3.796968889569021*^9}},
+ExpressionUUID -> "71fdc462-940c-488b-acb9-3c8e441f46d2"],Cell[
+CellGroupData[{Cell[
+BoxData[
+{RowBox[{RowBox[{"c",":=",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","1",",","0",",","0",",","0"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","0",",",RowBox[{"-","1"}],",","1",",","0"}],"}"}],",",RowBox[
+{"{",RowBox[{"0",",","1",",","0",",","1",",",RowBox[{"-","1"}]}],"}"}],",",RowBox[
+{"{",RowBox[{"0",",","0",",","1",",","0",",","1"}],"}"}],",",RowBox[{"{",RowBox[{"1",",","2",",","3",",","0",",",RowBox[
+{"-","6"}]}],"}"}]}],"}"}]}],";"}],"\n",RowBox[{RowBox[{"f",":=",RowBox[{"{",RowBox[
+{RowBox[{"1","/","5"}],",","0",",","0",",",RowBox[{"1","/","5"}],",","0"}],"}"}]}],";"}],"\n",RowBox[
+{"e","=",RowBox[{"Gauss","[",RowBox[{"c",",","f"}],"]"}]}]}],"Input",ExpressionUUID -> "fa071cfc-a70f-48b0-bf35-fb0d287b23d5",
+CellLabel -> "In[89]:= "],Cell[
+BoxData[RowBox[{"{",RowBox[{FractionBox["1","10"],",",FractionBox[
+"1","10"],",",FractionBox["1","10"],",","0",",",FractionBox["1","10"]}],"}"}],StandardForm],
+"Output",ExpressionUUID -> "2dcf85ba-4f3c-4d1d-a4af-88c93c5bfe05",CellLabel -> "Out[91]= "]},
+Open],ExpressionUUID -> "f8998d52-a5b6-4f8a-905d-5abdb64fafea"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"c",".","e"}],"==","f"}]],"Input",ExpressionUUID -> "32a9a4a4-8d04-4cf3-ab4c-292771f68439",
+CellLabel -> "In[92]:= "],Cell[
+BoxData["True",StandardForm],"Output",ExpressionUUID -> "6666e8be-cae3-4757-8686-9190618f9392",
+CellLabel -> "Out[92]= "]},Open],ExpressionUUID -> "d632ed01-a5a2-467c-adbf-65b744648100"]},
+Open],ExpressionUUID -> "9fec6d32-75a7-4f15-9287-60218fda898d"],Cell[
+CellGroupData[
+{Cell[
+"\<Zadanie 2.\>","Subsection",CellChangeTimes -> {{3.636276223153941*^9,3.6362762450569715`*^9},3.796968875688909*^9,3.7969690106715975`*^9},
+ExpressionUUID -> "449aee79-f0fd-45b0-ae3f-0d15eef8714c"],Cell[
+CellGroupData[{Cell[
+TextData[
+{"a",")"}],"Subsubsection",ExpressionUUID -> "50c548e7-cfcc-4e8d-8dfb-51fd849e28d1",
+CellChangeTimes -> {{3636276223.153941`,3636276245.0569715`},3779962300.9967556`,3796968876.6961718`,3796969003.2814827`}],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{RowBox[{"d",":=",RowBox[{"10","^",RowBox[{"(",RowBox[{"-","20"}],")"}]}]}],";"}],"\n",RowBox[
+{RowBox[{"a1",":=",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"d",",","1.1"}],"}"}],",",RowBox[
+{"{",RowBox[{"1",",","1"}],"}"}]}],"}"}]}],";"}],"\n",RowBox[{RowBox[{"b1","=",RowBox[
+{"{",RowBox[{"1",",","2"}],"}"}]}],";"}],"\n",RowBox[{"x1","=",RowBox[{"Gauss","[",RowBox[
+{"a1",",","b1"}],"]"}]}]}],"Input",ExpressionUUID -> "64496665-aa42-4b98-ad2f-316d2b4216f5",
+CellLabel -> "In[94]:= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"11102.230246251565`",",","0.909090909090909`"}],"}"}],
+StandardForm],"Output",ExpressionUUID -> "aba9fa98-455d-4316-ad9f-eed10269a90e",CellLabel -> "Out[97]= "]},
+Open],ExpressionUUID -> "ad5b3d0b-1353-45b0-8db4-4a12e069dbd2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"a1",".","x1"}],"==","b1"}]],"Input",ExpressionUUID -> "b417983d-7719-494a-90b7-cd05de7dbf71",
+CellLabel -> "In[98]:= "],Cell[
+BoxData["False",StandardForm],"Output",ExpressionUUID -> "a13d9560-fc44-4e23-ab83-7e1e711895e5",
+CellLabel -> "Out[98]= "]},Open],ExpressionUUID -> "de2d2687-eb62-4eac-9375-691a4c7e9634"]},
+Open],ExpressionUUID -> "93d4a058-2135-49a3-9c54-15f8b921c049"],Cell[
+CellGroupData[
+{Cell[
+"\<b)\>","Subsubsection",CellChangeTimes -> {{3.636276223153941*^9,3.6362762450569715`*^9},3.779962300996756*^9,3.7969688766961718`*^9,3.7969690057459836`*^9},
+ExpressionUUID -> "601aa40f-836a-43b5-af4f-891e07edd45e"],Cell[
+CellGroupData[{Cell[
+BoxData[
+{RowBox[{RowBox[{"a2",":=",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"1",",","1"}],"}"}],",",RowBox[
+{"{",RowBox[{"d",",","1.1"}],"}"}]}],"}"}]}],";"}],"\n",RowBox[{RowBox[{"b2",":=",RowBox[
+{"{",RowBox[{"2",",","1"}],"}"}]}],";"}],"\n",RowBox[{RowBox[{"x2","=",RowBox[{"Gauss","[",RowBox[
+{"a2",",","b2"}],"]"}]}],"\n"}]}],"Input",ExpressionUUID -> "878fb85c-e023-4034-bbbd-80fb746e4984",
+CellLabel -> "In[120]:= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"1.0909090909090908`",",","0.9090909090909091`"}],"}"}],
+StandardForm],"Output",ExpressionUUID -> "5ba2cf8a-249f-4329-a3e1-5db03c716fa2",CellLabel -> "Out[122]= "]},
+Open],ExpressionUUID -> "ed50f337-402f-4cbb-bda2-baa971523434"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"a2",".","x2"}],"==","b2"}]],"Input",ExpressionUUID -> "b2627632-1ac2-4853-8865-6dd4c5cd888b",
+CellLabel -> "In[102]:= "],Cell[
+BoxData["True",StandardForm],"Output",ExpressionUUID -> "82b16283-6e45-486f-b7b3-ca974eca208b",
+CellLabel -> "Out[102]= "]},Open],ExpressionUUID -> "4693dcde-627d-4d73-8031-12a82af3e060"]},
+Open],ExpressionUUID -> "59eba0cb-a13d-4644-8c35-31e7f3ea3fdd"],Cell[
+CellGroupData[
+{Cell[
+"\<c)\>","Subsubsection",CellChangeTimes -> {{3.636276223153941*^9,3.6362762450569715`*^9},3.77996230277807*^9,3.7969688776286783`*^9,3.796969008142572*^9},
+ExpressionUUID -> "2b614bee-26c9-4756-972a-449ad5cbc23c"],Cell[
+CellGroupData[{Cell[
+BoxData[
+{RowBox[{RowBox[{"a3",":=",RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"d",",",RowBox[
+{"11","/","10"}]}],"}"}],",",RowBox[{"{",RowBox[{"1",",","1"}],"}"}]}],"}"}]}],";"}],"\n",RowBox[
+{RowBox[{"b3",":=",RowBox[{"{",RowBox[{"1",",","2"}],"}"}]}],";"}],"\n",RowBox[{"x3","=",RowBox[
+{"Gauss","[",RowBox[{"a3",",","b3"}],"]"}]}]}],"Input",ExpressionUUID -> "eaf3bfaa-1620-401d-8c87-afe847117fe4",
+CellLabel -> "In[113]:= "],Cell[
+BoxData[RowBox[{"{",RowBox[{FractionBox["120000000000000000000",
+"109999999999999999999"],",",FractionBox["99999999999999999998","109999999999999999999"]}],"}"}],
+StandardForm],"Output",ExpressionUUID -> "0345fb61-89e3-4a15-8d25-111d6fb15a99",CellLabel -> "Out[115]= "]},
+Open],ExpressionUUID -> "bdd6929a-7e75-4938-9690-be5791369f5b"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{RowBox[{"a3",".","x3"}],"==","b3"}]],"Input",ExpressionUUID -> "4a269115-4770-4ebb-b8b7-5433550274d8",
+CellLabel -> "In[116]:= "],Cell[
+BoxData["True",StandardForm],"Output",ExpressionUUID -> "b8047e3c-b8f1-4a09-ac85-caff5048da55",
+CellLabel -> "Out[116]= "]},Open],ExpressionUUID -> "d1962072-b65e-44ee-b80e-806666fec505"]},
+Open],ExpressionUUID -> "a250a96b-25ec-497c-8859-c5d76db78494"]},Open],ExpressionUUID -> "55f90f0a-f173-4b9c-bb21-8594c7713398"]},
+Open],ExpressionUUID -> "40f330d1-d464-464e-97f3-d33768bbbd0d"]},Open],ExpressionUUID -> "b06c6d0a-3c2d-4298-a266-3a5130796738"]},
+WindowToolbars -> "EditBar",WindowSize -> {1141.2,574.8},WindowMargins -> {{0,Automatic},{Automatic,0}},
+PrintingCopies -> 1,PrintingStartingPageNumber -> 1,PrintingPageRange -> {32000,32000},
+PageHeaders -> {{Cell[
+TextData[{StyleBox[CounterBox["Page"],"PageNumber"],"   ","|"," ",ValueBox[
+"FileName"]}],"Header",CellMargins -> {{0,Inherited},{Inherited,Inherited}}],None,None},{Cell[
+TextData[
+{"Metody"," ","numeryczne",":"," ","Projekt"," ","3"}],"Header",CellMargins -> {{0,Inherited},{Inherited,Inherited}}],None,Cell[
+TextData[
+{" ","|","   ",StyleBox[CounterBox["Page"],"PageNumber"]}],"Header",CellMargins -> {{Inherited,0},{Inherited,Inherited}}]}},
+PageFooters -> {{None,None,None},{None,None,None}},PageHeaderLines -> {False,True},
+PageFooterLines -> {False,False},PrintingOptions -> {"FacingPages" -> False,"FirstPageFace" -> Right,"FirstPageFooter" -> False,"FirstPageHeader" -> True,"Magnification" -> 1.,"PaperOrientation" -> "Portrait","PaperSize" -> {595.32,841.92}},
+PrivateNotebookOptions -> {"VersionedStylesheet" -> {"Default.nb"[8.] -> False}},
+RuleDelayed[Magnification,FEPrivate`If[FEPrivate`Equal[FEPrivate`$VersionNumber,6.],
+1.5,Times[1.5,Inherited]]],StyleDefinitions -> "Default.nb",ExpressionUUID -> "e1843ff2-6d63-416c-afa1-b2074d3d075c",
+FrontEndVersion -> "12.1 for Wolfram Cloud 1.54.2 (March 10, 2020)"]
